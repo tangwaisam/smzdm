@@ -15,6 +15,3 @@ response = opener.open(req)
 print response.read()
 print type(response.read())
 print json.loads(response.read())
-#print response.read().json()['error']
-#texts=json.loads(response.read())
-#print type(texts)
